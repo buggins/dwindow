@@ -30,3 +30,10 @@
 # dub
 dub.selections.json
 .dub
+
+#dwindow deps dir
+deps
+
+#VisualD
+Release
+Debug
