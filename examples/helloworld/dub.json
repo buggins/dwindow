@@ -1,0 +1,21 @@
+{
+    "name": "helloworld",
+    "description": "dwindow library example Hello World",
+    "homepage": "https://github.com/buggins/dwindow",
+    "license": "Boost",
+    "authors": ["Vadim Lopatin"],
+
+    "targetPath": "bin",
+    "targetName": "helloworld",
+    "targetType": "executable",
+
+    "sourceFiles-windows": ["$PACKAGE_DIR/src/win_app.def"],
+
+    "dependencies": {
+        "dwindow": {"path": "../../"}
+    },
+
+    "subConfigurations": {
+        "dwindow": "minimal"
+    }
+}

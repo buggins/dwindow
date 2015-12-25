@@ -26,3 +26,7 @@
 *.exe
 *.out
 *.app
+
+# dub
+dub.selections.json
+.dub

@@ -1,0 +1,15 @@
+<DProject>
+ <ProjectGuid>6ef05fee-f632-4b33-805c-5b219269a511</ProjectGuid>
+ <Config name="Debug">
+  <!-- default to defaults -->
+  <exefile>$(OutDir)\$(ProjectName).lib</exefile>
+  <lib>1</lib>
+ </Config>
+ <Config name="Release">
+  <exefile>$(OutDir)\$(ProjectName).lib</exefile>
+  <lib>1</lib>
+ </Config>
+ <Folder name="dwindow_visuald">
+  <File path="lib.d" />
+ </Folder>
+</DProject>
